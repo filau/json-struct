@@ -7,7 +7,7 @@ add_library(json-struct STATIC
         src/json/json.c
 )
 
-target_include_directories(json-struct PRIVATE
+target_include_directories(json-struct PUBLIC
         include
         include/json
 )
